@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <footer class="footer fixed-bottom">
          <div class="row text-center p-3">
-            <p class="small text-muted">Develop & Design by @Software Development Cell</p>
+            <p class="footer-text"><small> Develop & Design by @Software Development Cell</small></p>
         </div>
         </footer>
     </div>

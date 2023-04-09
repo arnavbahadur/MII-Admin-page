@@ -1,10 +1,10 @@
 import React from 'react'
-// import './Header.css'
+import './Header.css'
 
 const Header = () => {
   return (
     <div>
-        <nav class="nav bg-purple justify-content-center">
+        <nav class="nav-bar">
             <a class="nav-link text-white" href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
             <a class="nav-link text-white" href="#">Services</a>
             <div class="right-login">
