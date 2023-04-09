@@ -5,12 +5,6 @@ import "./Admin.css"
 function Admin() {
   return (
     <div>
-    {/* <nav class="nav bg-purple justify-content-center">
-  <a class="nav-link text-white" href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
-  <a class="nav-link text-white" href="#">Services</a>
-  <a class="nav-link text-white" href="#">Logout <i class="fa fa-sign-out" aria-hidden="true"></i></a>
-</nav> */}
-
 <div class="container py-5">
   <div class="row">
     <div class="col-lg-12 p-5">
@@ -94,11 +88,6 @@ function Admin() {
   </div>
 </div>
 
-<footer class="footer fixed-bottom">
-  <div class="row text-center p-3">
-  
-  </div>
-</footer>
 
 
 <div class="modal fade" id="modelHELP" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">

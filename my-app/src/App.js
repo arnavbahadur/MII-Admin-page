@@ -1,11 +1,14 @@
 import React from 'react'
 import Admin from './Admin'
-import Header from './header'
+import Header from './Pages/Universal/Header/Header'
+import Footer from './Pages/Universal/Footer/Footer'
+
 function App() {
   return (
     <div>
       <Header/>
-    <Admin/>
+      <Admin/>
+      <Footer/>
     </div>
   )
 }
