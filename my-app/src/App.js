@@ -4,13 +4,16 @@ import Header from './Pages/Universal/Header/Header'
 import Footer from './Pages/Universal/Footer/Footer'
 import Login from './Pages/Login/Login'
 
+import Blog from './Pages/Blog/Blog'
 function App() {
   return (
     <div>
       <Header/>
-      {/* <Admin/> */}
-      <Footer/>
+      <Admin/>
+      <Blog/>
+     
       <Login/>
+       <Footer/>
     </div>
   )
 }
