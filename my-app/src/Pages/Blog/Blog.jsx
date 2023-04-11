@@ -1,27 +1,20 @@
 import React from 'react'
+import Add_blog from './Add_blog'
 import './Blog.css'
+import { useState } from 'react'
 
 const Blog = () => {
-
+const [openform,setopenform]=useState(false);
   return (
     <div>
       <div className="blog-component">
         <p>Blogs</p>
-        <div className="add-icon" id='add-icon-blog' onClick={()=>{document.getElementById('add_blog_area').style.display='block'; document.getElementById('add-icon-blog').innerHTML=`<i class="fa-solid fa-minus"/>`}}>
+        <div className="add-icon" id='add-icon-blog' onClick={()=>{setopenform(!openform)}}>
             {/* icon of add */}
             <i class="fa-solid fa-plus"/>
         </div>
-        <div className="add-area add_blog_area" id='add_blog_area'>
-            {/* html of blog to add */}        
-            <p>Add new Blogs</p>
-            <form action="">
-                <input type="text" name="Title" id="" className='title' placeholder='Title'/>
-                <textarea name="blog-txt" id="" cols="30" rows="10"placeholder='Write your blog' required/>
-                {/* add img upload option */}
-                <button type="submit" id='blog-txt-add'>Add</button>
-                <button type="reset">Clear</button>
-            </form>
-        </div>
+
+        {openform?<Add_blog/>:<></>}
       </div>
       <div className="blogs">
         <div className="blog-box">
@@ -85,6 +78,7 @@ const Blog = () => {
           </div>
         </div>
       </div>
+      
     </div>
   )
 }

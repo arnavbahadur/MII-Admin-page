@@ -8,37 +8,7 @@
     font-size: 5em;
     font-weight: bolder;
 }
-.add-icon{
-    width: 5vw;
-    background: black;
-    height: 7vh;
-    border-radius: 100%;
-    color: white;
-    text-align: center;
-    padding: 0.6rem 0px;
-}
-
-.add-icon:hover{
-    color: yellow;
-}
-
-.add-icon i{
-    font-size: large;
-}
-
-.add-area{
-    display: none;
-    padding: 10px;
-    width: 95vw;
-    margin: 20px;
-    /* display: flex;
-    text-align: center; */
-    /* justify-content: end; */
-    /* border: 2px solid black; */
-    /* background-color: black; */
-}
-
-
+/* add-icon & add-area css in event.css  */
 .add-area input,.add-area textarea{
     display: block;
     width: 87%;
@@ -69,7 +39,7 @@
 
 .blog-box{
     border: 2px solid black;
-    margin: 20px 0px;
+    margin: 20px 20px;
     /* padding: 20px ; */
     border-radius: 5px;
     display: flex;
