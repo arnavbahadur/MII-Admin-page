@@ -1,13 +1,18 @@
-.blog-component{
+.event-component{
     max-height: fit-content;
     max-width: fit-content;
     padding: 5px;
 }
 
-.blog-component > p{
+.event-component> p{
     font-size: 5em;
     font-weight: bolder;
 }
+
+p>i{
+    font-size: larger;
+}
+
 .add-icon{
     width: 5vw;
     background: black;
@@ -38,53 +43,25 @@
     /* background-color: black; */
 }
 
-
-.add-area input,.add-area textarea{
-    display: block;
-    width: 87%;
-    padding: 10px;
-    margin: 20PX;
-    
-    /* background-color: rgba(135, 199, 210, 0.274); */
-}
-
-.add-area button,.blog-box button{
+.add-area button, .event-box button{
     margin: 10px 20px;
     padding: 5px 35px;
     border-radius: 20px;
     /* background-color: rgb(51, 230, 111); */
 }
-.blogs{
+.events{
     padding: 10px;
-}
-
-/* .blogs > p::before{
-    content: "";
-    position: relative;
-    width: 10px;
-    top: 0;
-    left: 0;
-    border: 2px solid black;
-} */
-
-.blog-box{
-    border: 2px solid black;
-    margin: 20px 0px;
-    padding: 20px ;
-    display: flex;
-}
-
-.blog-img{
-    width: 40%;
-    border: 2px solid grey;
-    margin-right: 15px;
-}
-
-.row-2{
     display: flex;
     justify-content: space-between;
 }
-.row-3{
-    margin-top: 15px;
-    text-align: right;
+
+.event-box{
+    width: 50vw;
+    border: 2px solid black;
+    margin: 20px 30px;
+    padding: 20px ;
+}
+
+.event-img{
+    height: 15em;
 }
