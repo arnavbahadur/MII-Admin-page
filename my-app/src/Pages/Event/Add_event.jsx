@@ -1,14 +1,14 @@
 import React from 'react'
 
-const Add_blog = () => {
+const Add_event = () => {
   return (
     <div>
-       <div className="add-area add_blog_area ">
-            <p>Add new Blogs</p>
-            <form action="">
-                <input type="text" name="blogTitle" id="" className='blogtitle' placeholder='Title'/>
-                <textarea name="blog-txt" id="" cols="30" rows="10"placeholder='Write your blog' required/>
-                <input type="file" name="blog-img" id="" />
+        <div className="add-area add_event_area" id='add_event_area'>
+            {/* html of Event to add */}        
+           <p><li>Add new event</li></p>
+           <form action="">
+                <input type="text" name="eventTitle" id="" className='eventtitle' placeholder='Title'/>
+                <textarea name="event-txt" id="" cols="30" rows="10"placeholder='Event discription' required/>
                 <div className="img-upload">
                   <p>Upload image :</p>
                   <label htmlFor="event-img">
@@ -24,4 +24,4 @@ const Add_blog = () => {
   )
 }
 
-export default Add_blog
+export default Add_event

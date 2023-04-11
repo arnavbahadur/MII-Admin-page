@@ -27,6 +27,7 @@ p>i{
 
 .add-icon:hover{
     color: yellow;
+    cursor: pointer;
 }
 
 .add-icon i{
@@ -45,7 +46,13 @@ p>i{
     /* background-color: black; */
 }
 
-.add-area button, .event-box button{
+.add-area>p{
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.add-area button{
     margin: 10px 20px;
     padding: 5px 35px;
     border-radius: 20px;
@@ -54,7 +61,8 @@ p>i{
 .events{
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     /* flex-direction: column; */
 }
 
@@ -62,9 +70,40 @@ p>i{
     width: 20rem;
     border: 2px solid black;
     margin: 20px 30px;
-    padding: 20px ;
+    border-radius: 10px;
 }
 
 .event-img{
-    height: 15em;
+    /* height: 15em; */
+}
+
+.event-img>img{
+    border-radius: 8px;
+    max-width: 100%;
+    
+}
+
+.event-discription{
+    margin: 20px;
+
+}
+
+.delete-btn{
+    border-radius: 20px;
+    padding: 5px 35px;
+
+}
+.img-upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-upload>p{
+    display: inline-block;
+    margin-bottom: 0;
+    min-width: 120px;
+    margin-left: 20px;
+}
+.img-upload i{
+    font-size: 30px;
 }
