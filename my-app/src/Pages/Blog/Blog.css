@@ -70,7 +70,8 @@
 .blog-box{
     border: 2px solid black;
     margin: 20px 0px;
-    padding: 20px ;
+    /* padding: 20px ; */
+    border-radius: 5px;
     display: flex;
 }
 
@@ -79,9 +80,15 @@
     border: 2px solid grey;
     margin-right: 15px;
 }
-
+.blog-content{
+    padding: 20px;
+}
+.row-1{
+    /* margin: 10px; */
+}
 .row-2{
     display: flex;
+    /* padding: 0 20px; */
     justify-content: space-between;
 }
 .row-3{

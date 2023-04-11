@@ -6,7 +6,7 @@ const Event = () => {
     <div>
       <div className="event-component">
         <p><i class="fa-sharp fa-solid fa-apostrophe"/>Events</p>
-        <div className="add-icon" id="add-icon-event" onClick={()=>{document.getElementById('add_event_area').style.display='block'; document.getElementById('add-icon-event').style.display='none'}}>
+        <div className="add-icon" id="add-icon-event" onClick={()=>{document.getElementById('add_event_area').style.display='block'; document.getElementById('add-icon-event').innerHTML=`<i class="fa-solid fa-minus"/>`}}>
             {/* icon of add */}
             <i class="fa-solid fa-plus"/>
         </div>

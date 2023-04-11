@@ -7,7 +7,7 @@ const Blog = () => {
     <div>
       <div className="blog-component">
         <p>Blogs</p>
-        <div className="add-icon" id='add-icon-blog' onClick={()=>{document.getElementById('add_blog_area').style.display='block'; document.getElementById('add-icon-blog').style.display='none'}}>
+        <div className="add-icon" id='add-icon-blog' onClick={()=>{document.getElementById('add_blog_area').style.display='block'; document.getElementById('add-icon-blog').innerHTML=`<i class="fa-solid fa-minus"/>`}}>
             {/* icon of add */}
             <i class="fa-solid fa-plus"/>
         </div>

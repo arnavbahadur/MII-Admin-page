@@ -14,13 +14,15 @@ p>i{
 }
 
 .add-icon{
-    width: 5vw;
+    /* width: 5vw; */
     background: black;
-    height: 7vh;
+    /* height: 5vh; */
     border-radius: 100%;
     color: white;
     text-align: center;
-    padding: 0.6rem 0px;
+    /* padding: 0.6rem 0px; */
+    display: flex;
+    justify-content: center;
 }
 
 .add-icon:hover{
@@ -53,10 +55,11 @@ p>i{
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    /* flex-direction: column; */
 }
 
 .event-box{
-    width: 50vw;
+    width: 20rem;
     border: 2px solid black;
     margin: 20px 30px;
     padding: 20px ;
